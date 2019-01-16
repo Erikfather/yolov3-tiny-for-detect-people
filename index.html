@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+  <title>Document</title>
+</head>
+<body class="">
+  <a href="https://js.tensorflow.org"><img  src="/logos/tfjs.jpg" border="3"  width="500" height="200"  style="position: absolute;left: 0px;top: 0px "/></a>
+  <a href="https://pjreddie.com/darknet/yolo/"><img src="/logos/yolo.jpg"  width="500" height="200" style="position: absolute;right: 0px;top: 0px"/></a>
+
+  <h1 class="title"></a>Yolov3-tiny-for-detect-people</a></h1>
+
+  <div class="button-group">
+    <span class="button" id="button">Loading Model(33M)</span>
+  </div>
+
+  <div class="loading-box">
+      <div id="loading">
+        <div></div>
+        <div></div>
+      </div>
+      <p>Loading Model<font id="progress"></font></p>
+      <p class="tip">This may take a few minutes, depending on your network.--zgm</p>
+  </div>
+  <center><img src="./logos/sayit.jpg"  border="3" id='logo' /></center>
+  <div class="content">
+    <label for="file" class="file-lable">
+        <input accept="image/*" type="file" name="file" id="file" style="display: none;">
+        <span class="upload-img">Select your own picture</span>
+    </label>
+    <div id="img-box">
+      <img  src="/images/person.jpg" id="img" />
+      <div id="rect-box"></div>
+    </div>
+    <ul class="examples">
+      <li><img src="./images/person.jpg" /></li>
+      <li><img src="./images/1.jpg" /></li>
+      <li><img src="./images/2.jpg" /></li>
+      <li><img src="./images/3.jpg" /></li>
+      <li><img src="./images/4.jpg" /></li>
+      <li><img src="./images/5.jpg" /></li>
+      <li><img src="./images/6.jpg" /></li>
+      <li><img src="./images/7.jpg" /></li>
+      <li><img src="./images/8.jpg" /></li>
+      <li><img src="./images/9.jpg" /></li>
+      <li><img src="./images/10.jpg" /></li>
+    </ul>
+  </div>
+
+  
+  <script src="./dist/index.bundle.js"></script>
+</body>
+</html>
